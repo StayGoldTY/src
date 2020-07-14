@@ -52,7 +52,6 @@ namespace MyProject.Web.Controllers
                 User = user,
                 Roles = roles
             };
-
             return View("_EditUserModal", model);
         }
     }
